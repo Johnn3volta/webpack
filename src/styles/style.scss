@@ -1,0 +1,30 @@
+@import "global/fonts";
+
+$primary-color: black;
+html {
+  font-family: 'Consolas', monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2b3a42;
+  color: $primary-color;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/asd/aassd/webpack.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 42px;
+}
+
+.logo {
+  max-width: 256px;
+}

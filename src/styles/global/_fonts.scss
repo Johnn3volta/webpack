@@ -1,0 +1,5 @@
+@import "_mixins/font_face";
+
+@include font-face('lato', '../fonts/lato/Lato-Black');
+//@include font-face('Roboto', '../fonts/RobotoBold/RobotoBold', bold);
+//@include font-face('HelveticaNeue', '../fonts/HelveticaNeueRegular/HelveticaNeueRegular');
